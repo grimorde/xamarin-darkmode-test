@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="TesterApp.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:styles="clr-namespace:TesterApp.Styles;assembly=TesterApp">
+
+    <Application.Resources>
+
+        <!--  Declare styles to be used throughout your app here  -->
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <styles:BaseTheme />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--  colours  -->
+            <Color x:Key="WhiteColour">#ffffff</Color>
+            <Color x:Key="BlackColour">#000000</Color>
+            <Color x:Key="GreenColour">#00A69C</Color>
+            <Color x:Key="MidGrayColour">#6a6a6a</Color>
+            <Color x:Key="DarkGrayColour">#515959</Color>
+            <Color x:Key="LightGrayColour">#dedede</Color>
+            <Color x:Key="ErrorColour">#8B2638</Color>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

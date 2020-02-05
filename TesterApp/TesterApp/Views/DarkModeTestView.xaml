@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TesterApp.Views.DarkModeTestView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:TesterApp.ViewModels.Base;assembly=TesterApp"
+    Title="Style Test"
+    BackgroundColor="{DynamicResource backgroundColor}">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label
+                Grid.Column="0"
+                HorizontalOptions="Start"
+                Style="{StaticResource LabelStyle}"
+                Text="Dark Mode"
+                VerticalOptions="CenterAndExpand" />
+
+            <Switch
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                IsToggled="{Binding DarkMode}"
+                VerticalOptions="CenterAndExpand" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

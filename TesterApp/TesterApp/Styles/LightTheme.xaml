@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="TesterApp.Styles.LightTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:styles="clr-namespace:TesterApp.Styles;assembly=TesterApp">
+
+    <ResourceDictionary.MergedDictionaries>
+        <styles:BaseTheme />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Color x:Key="backgroundColor">#FFFFFF</Color>
+
+    <Color x:Key="TextPrimaryColor">#000000</Color>
+    <Color x:Key="TextSecondaryColor">#000000</Color>
+    <Color x:Key="TextTernaryColor">#C8C8C8</Color>
+
+</ResourceDictionary>

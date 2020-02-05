@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="TesterApp.Styles.BaseTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--  Default  -->
+    <Color x:Key="aqua_marine">#FF36D1DC</Color>
+    <Color x:Key="almost_black">#FF333333</Color>
+    <Color x:Key="brown_grey">#FF888888</Color>
+    <Color x:Key="cerulean">#FF0078D4</Color>
+    <Color x:Key="cerulean_three">#FF017ED8</Color>
+    <Color x:Key="cerulean_two">#FF006CCF</Color>
+    <Color x:Key="dark_lime_green">#FF88C800</Color>
+    <Color x:Key="dusty_orange">#FFFF6230</Color>
+    <Color x:Key="green_blue">#FF00BF79</Color>
+    <Color x:Key="soft_blue">#FF5B86E5</Color>
+    <Color x:Key="tomato">#FFE52E15</Color>
+    <Color x:Key="very_light_pink">#FFCCCCCC</Color>
+    <Color x:Key="very_light_pink_two">#FFC4C4C4</Color>
+    <Color x:Key="white">#FFFFFFFF</Color>
+    <Color x:Key="teal">#FF14D9D9</Color>
+    <Color x:Key="dark_peach">#FFFF4B4B</Color>
+    <Color x:Key="light_peach">#87FF7B7B</Color>
+
+    <Style x:Key="LabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource TextPrimaryColor}" />
+    </Style>
+
+    <Style x:Key="ModalStyle" TargetType="Frame">
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="HasShadow" Value="True" />
+    </Style>
+</ResourceDictionary>
